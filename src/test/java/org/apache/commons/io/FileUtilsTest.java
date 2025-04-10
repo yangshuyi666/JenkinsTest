@@ -35,10 +35,11 @@ public class FileUtilsTest {
 
     @Test
     public void deleteQuietly() {
-        // 假设文件存在，调用 deleteQuietly 方法删除文件
-        // 然后断言文件仍然存在（故意让测试失败）
-        FileUtils.deleteQuietly(testFile);
-        assertTrue("文件应该被删除，但实际上仍然存在", testFile.exists());
+//        // 假设文件存在，调用 deleteQuietly 方法删除文件
+//        // 然后断言文件仍然存在（故意让测试失败）
+//        FileUtils.deleteQuietly(testFile);
+//        assertTrue("文件应该被删除，但实际上仍然存在", testFile.exists());
+        assertTrue("error",false);
     }
 
     @Test
